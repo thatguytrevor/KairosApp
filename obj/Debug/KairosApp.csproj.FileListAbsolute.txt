@@ -1,0 +1,19 @@
+c:\users\eric\documents\visual studio 2013\Projects\KairosApp\KairosApp\bin\Debug\KairosApp.exe.config
+c:\users\eric\documents\visual studio 2013\Projects\KairosApp\KairosApp\bin\Debug\KairosApp.exe
+c:\users\eric\documents\visual studio 2013\Projects\KairosApp\KairosApp\bin\Debug\KairosApp.pdb
+c:\users\eric\documents\visual studio 2013\Projects\KairosApp\KairosApp\obj\Debug\KairosApp.csprojResolveAssemblyReference.cache
+c:\users\eric\documents\visual studio 2013\Projects\KairosApp\KairosApp\obj\Debug\KairosApp.Form1.resources
+c:\users\eric\documents\visual studio 2013\Projects\KairosApp\KairosApp\obj\Debug\KairosApp.Properties.Resources.resources
+c:\users\eric\documents\visual studio 2013\Projects\KairosApp\KairosApp\obj\Debug\KairosApp.csproj.GenerateResource.Cache
+c:\users\eric\documents\visual studio 2013\Projects\KairosApp\KairosApp\obj\Debug\KairosApp.exe
+c:\users\eric\documents\visual studio 2013\Projects\KairosApp\KairosApp\obj\Debug\KairosApp.pdb
+D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\bin\Debug\KairosApp.exe.config
+D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\obj\Debug\KairosApp.exe
+D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\obj\Debug\KairosApp.pdb
+D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\bin\Debug\KairosApp.exe
+D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\bin\Debug\KairosApp.pdb
+D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\obj\Debug\KairosApp.csprojResolveAssemblyReference.cache
+D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\obj\Debug\KairosApp.Form1.resources
+D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\obj\Debug\KairosApp.Properties.Resources.resources
+D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\obj\Debug\KairosApp.csproj.GenerateResource.Cache
+D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\obj\Debug\KairosApp.SideTextView.resources
