@@ -166,7 +166,7 @@ namespace KairosApp
         {
             ListViewItem textFile = listView1.SelectedItems[0];
             
-
+            
              //SideTextView. = textFile.Text;
         }
 

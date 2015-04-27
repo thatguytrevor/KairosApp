@@ -16,4 +16,3 @@ D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\ob
 D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\obj\Debug\KairosApp.Form1.resources
 D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\obj\Debug\KairosApp.Properties.Resources.resources
 D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\obj\Debug\KairosApp.csproj.GenerateResource.Cache
-D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\obj\Debug\KairosApp.SideTextView.resources
