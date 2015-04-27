@@ -18,6 +18,7 @@ namespace KairosApp
         }
 
         public string returnText { get; set; }
+        public string sermonTitle { get; set; }
 
         private void label3_Click(object sender, EventArgs e)
         {
@@ -34,6 +35,8 @@ namespace KairosApp
            {
                text = System.IO.File.ReadAllText("../../whatIsLoveSermon.txt");
                this.returnText = text;
+               this.sermonTitle = "What is Love?";
+
                this.Close();
                //return text;
         
@@ -42,6 +45,7 @@ namespace KairosApp
            {
                text = System.IO.File.ReadAllText("../../christHasRisenSermon.txt");
                this.returnText = text;
+               this.sermonTitle = "Christ has Risen";
                this.Close();
                //return text;
            }
@@ -50,6 +54,7 @@ namespace KairosApp
            {
                text = System.IO.File.ReadAllText("../../alphaAndOmegaSermon.txt");
                this.returnText = text;
+               this.sermonTitle = "Alpha and Omega";
                this.Close();
                //return text;
            }

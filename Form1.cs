@@ -18,7 +18,8 @@ namespace KairosApp
             InitializeComponent();
         }
 
-        
+        string sermonTitle { get; set; }
+        string sermonText { get; set; }
         private void Form1_Load(object sender, EventArgs e)
         {
             ExtractAssociatedIconEx(@"Test Documents");
@@ -49,17 +50,18 @@ namespace KairosApp
             //calendarForm calForm = new calendarForm();
 
             //calForm.Show();
-            string text = "";
+            
             using (var form = new calendarForm())
             {
                 var result = form.ShowDialog();
 
-               
-                text = form.returnText;
+
+                this.sermonText = form.returnText;
+                this.sermonTitle = form.sermonTitle;
                 
             }
-
-            this.mainTextBox.Text = text;
+           
+            this.mainTextBox.Text = this.sermonText;
         }
 
         private void saveAsButton_Click(object sender, EventArgs e)
