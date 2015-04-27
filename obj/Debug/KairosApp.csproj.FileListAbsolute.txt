@@ -16,3 +16,13 @@ D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\ob
 D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\obj\Debug\KairosApp.Form1.resources
 D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\obj\Debug\KairosApp.Properties.Resources.resources
 D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\obj\Debug\KairosApp.csproj.GenerateResource.Cache
+C:\Users\KarlF\Dropbox\SchoolWork\Senior\CPTS 443\KairosApp\bin\Debug\KairosApp.exe.config
+C:\Users\KarlF\Dropbox\SchoolWork\Senior\CPTS 443\KairosApp\obj\Debug\KairosApp.exe
+C:\Users\KarlF\Dropbox\SchoolWork\Senior\CPTS 443\KairosApp\obj\Debug\KairosApp.pdb
+C:\Users\KarlF\Dropbox\SchoolWork\Senior\CPTS 443\KairosApp\obj\Debug\KairosApp.csprojResolveAssemblyReference.cache
+C:\Users\KarlF\Dropbox\SchoolWork\Senior\CPTS 443\KairosApp\obj\Debug\KairosApp.calendarForm.resources
+C:\Users\KarlF\Dropbox\SchoolWork\Senior\CPTS 443\KairosApp\obj\Debug\KairosApp.Form1.resources
+C:\Users\KarlF\Dropbox\SchoolWork\Senior\CPTS 443\KairosApp\obj\Debug\KairosApp.Properties.Resources.resources
+C:\Users\KarlF\Dropbox\SchoolWork\Senior\CPTS 443\KairosApp\obj\Debug\KairosApp.csproj.GenerateResource.Cache
+C:\Users\KarlF\Dropbox\SchoolWork\Senior\CPTS 443\KairosApp\bin\Debug\KairosApp.exe
+C:\Users\KarlF\Dropbox\SchoolWork\Senior\CPTS 443\KairosApp\bin\Debug\KairosApp.pdb

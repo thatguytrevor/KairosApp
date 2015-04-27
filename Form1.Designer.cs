@@ -37,23 +37,23 @@
             this.calendarButton = new System.Windows.Forms.Button();
             this.presentButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.writingLayout = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.addVerseButton = new System.Windows.Forms.Button();
+            this.addBlockButton = new System.Windows.Forms.Button();
+            this.setTimeButton = new System.Windows.Forms.Button();
+            this.mainTextBox = new System.Windows.Forms.RichTextBox();
             this.fileSystemLayout = new System.Windows.Forms.TableLayoutPanel();
             this.listView1 = new System.Windows.Forms.ListView();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.open2Button = new System.Windows.Forms.Button();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.setTimeButton = new System.Windows.Forms.Button();
-            this.addBlockButton = new System.Windows.Forms.Button();
-            this.addVerseButton = new System.Windows.Forms.Button();
-            this.writingLayout = new System.Windows.Forms.TableLayoutPanel();
-            this.mainTextBox = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.menuButtonLayout.SuspendLayout();
+            this.writingLayout.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             this.fileSystemLayout.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
-            this.writingLayout.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -193,6 +193,90 @@
             this.label1.Text = "File System";
             this.label1.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
+            // writingLayout
+            // 
+            this.writingLayout.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.writingLayout.ColumnCount = 1;
+            this.writingLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.writingLayout.Controls.Add(this.tableLayoutPanel2, 0, 1);
+            this.writingLayout.Controls.Add(this.mainTextBox, 0, 0);
+            this.writingLayout.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.writingLayout.Location = new System.Drawing.Point(2, 33);
+            this.writingLayout.Margin = new System.Windows.Forms.Padding(2);
+            this.writingLayout.Name = "writingLayout";
+            this.writingLayout.RowCount = 2;
+            this.writingLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 95F));
+            this.writingLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.writingLayout.Size = new System.Drawing.Size(654, 592);
+            this.writingLayout.TabIndex = 2;
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 4;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 55F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
+            this.tableLayoutPanel2.Controls.Add(this.addVerseButton, 3, 0);
+            this.tableLayoutPanel2.Controls.Add(this.addBlockButton, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.setTimeButton, 0, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 563);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(648, 26);
+            this.tableLayoutPanel2.TabIndex = 0;
+            // 
+            // addVerseButton
+            // 
+            this.addVerseButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.addVerseButton.Font = new System.Drawing.Font("Segoe UI Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addVerseButton.Location = new System.Drawing.Point(552, 2);
+            this.addVerseButton.Margin = new System.Windows.Forms.Padding(2);
+            this.addVerseButton.Name = "addVerseButton";
+            this.addVerseButton.Size = new System.Drawing.Size(94, 22);
+            this.addVerseButton.TabIndex = 0;
+            this.addVerseButton.Text = "+ Bible Verse";
+            this.addVerseButton.UseVisualStyleBackColor = true;
+            this.addVerseButton.Click += new System.EventHandler(this.addVerseButton_Click);
+            // 
+            // addBlockButton
+            // 
+            this.addBlockButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.addBlockButton.Font = new System.Drawing.Font("Segoe UI Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addBlockButton.Location = new System.Drawing.Point(455, 2);
+            this.addBlockButton.Margin = new System.Windows.Forms.Padding(2);
+            this.addBlockButton.Name = "addBlockButton";
+            this.addBlockButton.Size = new System.Drawing.Size(93, 22);
+            this.addBlockButton.TabIndex = 1;
+            this.addBlockButton.Text = "+ Block";
+            this.addBlockButton.UseVisualStyleBackColor = true;
+            this.addBlockButton.Click += new System.EventHandler(this.addBlockButton_Click);
+            // 
+            // setTimeButton
+            // 
+            this.setTimeButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.setTimeButton.Font = new System.Drawing.Font("Segoe UI Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.setTimeButton.Location = new System.Drawing.Point(2, 2);
+            this.setTimeButton.Margin = new System.Windows.Forms.Padding(2);
+            this.setTimeButton.Name = "setTimeButton";
+            this.setTimeButton.Size = new System.Drawing.Size(93, 22);
+            this.setTimeButton.TabIndex = 2;
+            this.setTimeButton.Text = "Time: Set";
+            this.setTimeButton.UseVisualStyleBackColor = true;
+            this.setTimeButton.Click += new System.EventHandler(this.setTimeButton_Click);
+            // 
+            // mainTextBox
+            // 
+            this.mainTextBox.Location = new System.Drawing.Point(4, 4);
+            this.mainTextBox.Name = "mainTextBox";
+            this.mainTextBox.ReadOnly = true;
+            this.mainTextBox.Size = new System.Drawing.Size(646, 553);
+            this.mainTextBox.TabIndex = 1;
+            this.mainTextBox.Text = "...Click \"new\" to create a new sermon.";
+            // 
             // fileSystemLayout
             // 
             this.fileSystemLayout.ColumnCount = 1;
@@ -251,91 +335,6 @@
             this.open2Button.UseVisualStyleBackColor = true;
             this.open2Button.Click += new System.EventHandler(this.open2Button_Click);
             // 
-            // tableLayoutPanel2
-            // 
-            this.tableLayoutPanel2.ColumnCount = 4;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 55F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
-            this.tableLayoutPanel2.Controls.Add(this.addVerseButton, 3, 0);
-            this.tableLayoutPanel2.Controls.Add(this.addBlockButton, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.setTimeButton, 0, 0);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 563);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 1;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(648, 26);
-            this.tableLayoutPanel2.TabIndex = 0;
-            // 
-            // setTimeButton
-            // 
-            this.setTimeButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.setTimeButton.Font = new System.Drawing.Font("Segoe UI Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.setTimeButton.Location = new System.Drawing.Point(2, 2);
-            this.setTimeButton.Margin = new System.Windows.Forms.Padding(2);
-            this.setTimeButton.Name = "setTimeButton";
-            this.setTimeButton.Size = new System.Drawing.Size(93, 22);
-            this.setTimeButton.TabIndex = 2;
-            this.setTimeButton.Text = "Time: Set";
-            this.setTimeButton.UseVisualStyleBackColor = true;
-            this.setTimeButton.Click += new System.EventHandler(this.setTimeButton_Click);
-            // 
-            // addBlockButton
-            // 
-            this.addBlockButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.addBlockButton.Font = new System.Drawing.Font("Segoe UI Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addBlockButton.Location = new System.Drawing.Point(455, 2);
-            this.addBlockButton.Margin = new System.Windows.Forms.Padding(2);
-            this.addBlockButton.Name = "addBlockButton";
-            this.addBlockButton.Size = new System.Drawing.Size(93, 22);
-            this.addBlockButton.TabIndex = 1;
-            this.addBlockButton.Text = "+ Block";
-            this.addBlockButton.UseVisualStyleBackColor = true;
-            this.addBlockButton.Click += new System.EventHandler(this.addBlockButton_Click);
-            // 
-            // addVerseButton
-            // 
-            this.addVerseButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.addVerseButton.Font = new System.Drawing.Font("Segoe UI Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addVerseButton.Location = new System.Drawing.Point(552, 2);
-            this.addVerseButton.Margin = new System.Windows.Forms.Padding(2);
-            this.addVerseButton.Name = "addVerseButton";
-            this.addVerseButton.Size = new System.Drawing.Size(94, 22);
-            this.addVerseButton.TabIndex = 0;
-            this.addVerseButton.Text = "+ Bible Verse";
-            this.addVerseButton.UseVisualStyleBackColor = true;
-            this.addVerseButton.Click += new System.EventHandler(this.addVerseButton_Click);
-            // 
-            // writingLayout
-            // 
-            this.writingLayout.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.writingLayout.ColumnCount = 1;
-            this.writingLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.writingLayout.Controls.Add(this.tableLayoutPanel2, 0, 1);
-            this.writingLayout.Controls.Add(this.mainTextBox, 0, 0);
-            this.writingLayout.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.writingLayout.Location = new System.Drawing.Point(2, 33);
-            this.writingLayout.Margin = new System.Windows.Forms.Padding(2);
-            this.writingLayout.Name = "writingLayout";
-            this.writingLayout.RowCount = 2;
-            this.writingLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 95F));
-            this.writingLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
-            this.writingLayout.Size = new System.Drawing.Size(654, 592);
-            this.writingLayout.TabIndex = 2;
-            // 
-            // mainTextBox
-            // 
-            this.mainTextBox.Enabled = false;
-            this.mainTextBox.Location = new System.Drawing.Point(4, 4);
-            this.mainTextBox.Name = "mainTextBox";
-            this.mainTextBox.ReadOnly = true;
-            this.mainTextBox.Size = new System.Drawing.Size(646, 553);
-            this.mainTextBox.TabIndex = 1;
-            this.mainTextBox.Text = "...Click \"new\" to create a new sermon.";
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(45, 3);
@@ -359,10 +358,10 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.menuButtonLayout.ResumeLayout(false);
+            this.writingLayout.ResumeLayout(false);
+            this.tableLayoutPanel2.ResumeLayout(false);
             this.fileSystemLayout.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel2.ResumeLayout(false);
-            this.writingLayout.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -387,8 +386,8 @@
         private System.Windows.Forms.Button addVerseButton;
         private System.Windows.Forms.Button addBlockButton;
         private System.Windows.Forms.Button setTimeButton;
-        private System.Windows.Forms.RichTextBox mainTextBox;
         private System.Windows.Forms.Button button1;
+        public System.Windows.Forms.RichTextBox mainTextBox;
 
 
     }

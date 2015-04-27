@@ -18,6 +18,7 @@ namespace KairosApp
             InitializeComponent();
         }
 
+        
         private void Form1_Load(object sender, EventArgs e)
         {
             ExtractAssociatedIconEx(@"Test Documents");
@@ -45,7 +46,20 @@ namespace KairosApp
 
         private void calendarButton_Click(object sender, EventArgs e)
         {
+            //calendarForm calForm = new calendarForm();
 
+            //calForm.Show();
+            string text = "";
+            using (var form = new calendarForm())
+            {
+                var result = form.ShowDialog();
+
+               
+                text = form.returnText;
+                
+            }
+
+            this.mainTextBox.Text = text;
         }
 
         private void saveAsButton_Click(object sender, EventArgs e)
