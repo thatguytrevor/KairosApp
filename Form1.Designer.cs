@@ -131,6 +131,7 @@
             // saveButton
             // 
             this.saveButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.saveButton.Enabled = false;
             this.saveButton.Font = new System.Drawing.Font("Segoe UI Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.saveButton.Location = new System.Drawing.Point(188, 2);
             this.saveButton.Margin = new System.Windows.Forms.Padding(2);
@@ -144,6 +145,7 @@
             // saveAsButton
             // 
             this.saveAsButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.saveAsButton.Enabled = false;
             this.saveAsButton.Font = new System.Drawing.Font("Segoe UI Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.saveAsButton.Location = new System.Drawing.Point(281, 2);
             this.saveAsButton.Margin = new System.Windows.Forms.Padding(2);

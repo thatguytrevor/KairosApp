@@ -97,7 +97,7 @@ namespace KairosApp
 
             else
             {
-
+                //No file open to save
             }
 
 
@@ -113,6 +113,8 @@ namespace KairosApp
             mainTextBox.Enabled = true;
             mainTextBox.ReadOnly = false;
             mainTextBox.Text = "";
+            saveAsButton.Enabled = true;
+            saveButton.Enabled = true;
         }
 
         private void setTimeButton_Click(object sender, EventArgs e)
@@ -164,6 +166,7 @@ namespace KairosApp
                     imageList1.Images.Add(file.Extension, iconForFile);
                 }
                 item.ImageKey = file.Extension;
+                item.Tag = file.FullName;
                 listView1.Items.Add(item);
             }
             listView1.EndUpdate();
@@ -181,10 +184,12 @@ namespace KairosApp
 
         private void open2Button_Click(object sender, EventArgs e)
         {
-            ListViewItem textFile = listView1.SelectedItems[0];
-            
-            
-             //SideTextView. = textFile.Text;
+            ListViewItem selected = listView1.SelectedItems[0];
+            SideTextView textView = new SideTextView();
+            string selectedFilePath = listView1.SelectedItems[0].Tag.ToString();
+            textView.setText = System.IO.File.ReadAllText(selectedFilePath);
+
+            textView.ShowDialog();
         }
 
         private void fileSystemLayout_Paint(object sender, PaintEventArgs e)
