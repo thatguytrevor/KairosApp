@@ -34,7 +34,7 @@
             // sermonTitleLabel
             // 
             this.sermonTitleLabel.AutoSize = true;
-            this.sermonTitleLabel.Location = new System.Drawing.Point(35, 40);
+            this.sermonTitleLabel.Location = new System.Drawing.Point(12, 9);
             this.sermonTitleLabel.Name = "sermonTitleLabel";
             this.sermonTitleLabel.Size = new System.Drawing.Size(30, 13);
             this.sermonTitleLabel.TabIndex = 0;

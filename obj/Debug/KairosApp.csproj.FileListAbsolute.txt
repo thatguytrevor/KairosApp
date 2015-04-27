@@ -26,3 +26,4 @@ C:\Users\KarlF\Dropbox\SchoolWork\Senior\CPTS 443\KairosApp\obj\Debug\KairosApp.
 C:\Users\KarlF\Dropbox\SchoolWork\Senior\CPTS 443\KairosApp\obj\Debug\KairosApp.csproj.GenerateResource.Cache
 C:\Users\KarlF\Dropbox\SchoolWork\Senior\CPTS 443\KairosApp\bin\Debug\KairosApp.exe
 C:\Users\KarlF\Dropbox\SchoolWork\Senior\CPTS 443\KairosApp\bin\Debug\KairosApp.pdb
+C:\Users\KarlF\Dropbox\SchoolWork\Senior\CPTS 443\KairosApp\obj\Debug\KairosApp.presentationForm.resources

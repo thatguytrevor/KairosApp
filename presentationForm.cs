@@ -15,6 +15,7 @@ namespace KairosApp
         public presentationForm(string sermonTitle, string sermonText)
         {
             InitializeComponent();
+            sermonTitleLabel.Font = new Font(sermonTitleLabel.Font.FontFamily, 20);
         }
     }
 }
