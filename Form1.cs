@@ -42,8 +42,9 @@ namespace KairosApp
 
         private void presentButton_Click(object sender, EventArgs e)
         {
-            presentationForm presentForm = new presentationForm(this.sermonTitle, this.sermonText);
-            presentForm.Show();
+            presentForm presentationForm = new presentForm(this.sermonTitle, this.sermonText);
+
+            presentationForm.Show();
         }
 
         private void calendarButton_Click(object sender, EventArgs e)

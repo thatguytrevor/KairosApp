@@ -10,12 +10,15 @@ using System.Windows.Forms;
 
 namespace KairosApp
 {
-    public partial class presentationForm : Form
+    public partial class presentForm : Form
     {
-        public presentationForm(string sermonTitle, string sermonText)
+        public presentForm(string sermonTitle, string sermonText)
         {
             InitializeComponent();
             sermonTitleLabel.Font = new Font(sermonTitleLabel.Font.FontFamily, 20);
+            sermonTitleLabel.Text = sermonTitle;
+
+            sermonTextTextbox.Text = sermonText;
         }
     }
 }
