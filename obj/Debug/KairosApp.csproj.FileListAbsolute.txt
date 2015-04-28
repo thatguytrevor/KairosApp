@@ -31,3 +31,16 @@ D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\ob
 D:\My Documents\Dropbox\WSU\Sophomore\Semester 4\CPTS 443\KairosApp\KairosApp\obj\Debug\KairosApp.SideTextView.resources
 C:\Users\KarlF\Dropbox\SchoolWork\Senior\CPTS 443\KairosApp\obj\Debug\KairosApp.presentForm.resources
 C:\Users\KarlF\Dropbox\SchoolWork\Senior\CPTS 443\KairosApp\obj\Debug\KairosApp.SideTextView.resources
+C:\Users\Andrew\Documents\GitHub\KairosApp\bin\Debug\KairosApp.exe.config
+C:\Users\Andrew\Documents\GitHub\KairosApp\obj\Debug\KairosApp.exe
+C:\Users\Andrew\Documents\GitHub\KairosApp\obj\Debug\KairosApp.pdb
+C:\Users\Andrew\Documents\GitHub\KairosApp\bin\Debug\KairosApp.exe
+C:\Users\Andrew\Documents\GitHub\KairosApp\bin\Debug\KairosApp.pdb
+C:\Users\Andrew\Documents\GitHub\KairosApp\obj\Debug\KairosApp.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Documents\GitHub\KairosApp\obj\Debug\KairosApp.Bible.resources
+C:\Users\Andrew\Documents\GitHub\KairosApp\obj\Debug\KairosApp.calendarForm.resources
+C:\Users\Andrew\Documents\GitHub\KairosApp\obj\Debug\KairosApp.Form1.resources
+C:\Users\Andrew\Documents\GitHub\KairosApp\obj\Debug\KairosApp.presentForm.resources
+C:\Users\Andrew\Documents\GitHub\KairosApp\obj\Debug\KairosApp.Properties.Resources.resources
+C:\Users\Andrew\Documents\GitHub\KairosApp\obj\Debug\KairosApp.SideTextView.resources
+C:\Users\Andrew\Documents\GitHub\KairosApp\obj\Debug\KairosApp.csproj.GenerateResource.Cache

@@ -107,6 +107,7 @@ namespace KairosApp
         private void openButton_Click(object sender, EventArgs e)
         {
             //Needs to be done: enable mainTextBox, set mainTextBox.ReadOnly to false and set mainTextBox.Text = text inside file user selected
+             
         }
 
         private void newButton_Click(object sender, EventArgs e)
@@ -130,9 +131,23 @@ namespace KairosApp
 
         private void addVerseButton_Click(object sender, EventArgs e)
         {
+            using (var form = new Bible())
+            {
+                var result = form.ShowDialog();
 
+
+                this.sermonText = form.biblePassage;
+
+            }
+
+            this.mainTextBox.Text += this.sermonText;
         }
 
+        private int addVerse(string str)
+        {
+
+            return 0;
+        }
         ImageList imageList1;
 
         public void ExtractAssociatedIconEx(string filepath)

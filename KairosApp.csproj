@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bible.Designer.cs">
+      <DependentUpon>Bible.cs</DependentUpon>
+    </Compile>
     <Compile Include="calendarForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,9 @@
     <Compile Include="SideTextView.Designer.cs">
       <DependentUpon>SideTextView.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Bible.resx">
+      <DependentUpon>Bible.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="calendarForm.resx">
       <DependentUpon>calendarForm.cs</DependentUpon>
     </EmbeddedResource>
