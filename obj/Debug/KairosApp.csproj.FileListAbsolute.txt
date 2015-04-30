@@ -44,3 +44,4 @@ C:\Users\Andrew\Documents\GitHub\KairosApp\obj\Debug\KairosApp.presentForm.resou
 C:\Users\Andrew\Documents\GitHub\KairosApp\obj\Debug\KairosApp.Properties.Resources.resources
 C:\Users\Andrew\Documents\GitHub\KairosApp\obj\Debug\KairosApp.SideTextView.resources
 C:\Users\Andrew\Documents\GitHub\KairosApp\obj\Debug\KairosApp.csproj.GenerateResource.Cache
+C:\Users\Andrew\Documents\GitHub\KairosApp\obj\Debug\KairosApp.Autoverse.resources

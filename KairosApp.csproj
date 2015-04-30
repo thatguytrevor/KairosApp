@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Autoverse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autoverse.Designer.cs">
+      <DependentUpon>Autoverse.cs</DependentUpon>
+    </Compile>
     <Compile Include="Bible.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,9 @@
     <Compile Include="SideTextView.Designer.cs">
       <DependentUpon>SideTextView.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Autoverse.resx">
+      <DependentUpon>Autoverse.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bible.resx">
       <DependentUpon>Bible.cs</DependentUpon>
     </EmbeddedResource>

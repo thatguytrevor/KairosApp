@@ -20,6 +20,8 @@ namespace KairosApp
 
         string sermonTitle { get; set; }
         string sermonText { get; set; }
+
+        string sermonDate { get; set; }
         private void Form1_Load(object sender, EventArgs e)
         {
             ExtractAssociatedIconEx(@"Test Documents");
@@ -60,9 +62,11 @@ namespace KairosApp
 
                 this.sermonText = form.returnText;
                 this.sermonTitle = form.sermonTitle;
+                this.sermonDate = form.sermonDate;
                 
             }
-           
+            textBox1.Text = sermonTitle;
+            textBox2.Text = sermonDate;
             this.mainTextBox.Text = this.sermonText;
         }
 
@@ -210,6 +214,20 @@ namespace KairosApp
 
         private void fileSystemLayout_Paint(object sender, PaintEventArgs e)
         {
+
+        }
+
+        private void mainTextBox_TextChanged(object sender, EventArgs e)
+        {
+            string jverse = "(Jeremiah 29:11)";
+            string passage = "11 For I know the plans I have for you,” declares the Lord, “plans to prosper you and not to harm you, plans to give you hope and a future. (Jeremiah 29:11)";
+            if (mainTextBox.Text.Contains(jverse))
+            {
+                if (!mainTextBox.Text.Contains(passage))
+                {
+                    mainTextBox.Text = mainTextBox.Text.Replace(jverse, passage);
+                }
+            }
 
         }
     }
